@@ -1,0 +1,66 @@
+	html, body {
+		height:100%;
+	}
+	body {
+		margin:0;
+		font-family:Verdana,Helvetica,Arial,sans-serif;
+	}
+	
+	nav {
+		margin-left:50px;
+		border:solid 2px #000;
+	}
+	nav ul {
+		margin:0;
+		padding:0;
+	}
+	nav ul li {
+		list-style-type:none;
+		display:inline;
+		padding:5px 10px;
+		font-size:0.9em;
+		cursor:pointer;
+		color:blue;
+		font-weight:bold;
+		border-left:solid 2px #CCC;
+	}
+	nav ul li:first-child {
+		border-left-width:0;
+	}
+	
+	#resultsContainer {
+		border:solid 2px #000;
+		margin-left:50px;
+	}
+	
+	#resultsContainer table {
+		border-collapse:collapse;
+		border-spacing:0;
+	}
+	#resultsContainer th, #resultsContainer td {
+		border:solid 1px #CCC;
+		padding:2px 5px;
+	}
+	
+	#resultsContainer th {
+		cursor:pointer;
+		background-color:#036;
+		color:#FFF;
+	}
+	
+	#resultsContainer .deleteMe {
+		cursor:pointer;
+		color:#C00;
+	}
+	
+	#formContainer, #detailsContainer {
+		display:none;
+	}
+	
+	#formContainer div, #detailsContainer div {
+		font-size:0.8em;
+		padding:5px 10px;
+	}
+	#formContainer label, #detailsContainer label {
+		padding-right:10px;
+	}
